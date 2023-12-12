@@ -8,7 +8,7 @@ import java.util.Set;
 public interface UserService {
     void saveUser(User user);
     void removeUserById(long id);
-    List<User> getUsers();
+    List<User> getUsersWithRoles();
     Set<Role> getRoles();
     Set<Role> getRole(Set<String> rolesId);
     User getUserById(long id);

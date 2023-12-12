@@ -39,8 +39,8 @@ public class UserServiceImp implements UserService, UserDetailsService {
     }
 
     @Override
-    public List<User> getUsers() {
-        return userDao.getUsers();
+    public List<User> getUsersWithRoles() {
+        return userDao.getUsersWithRoles();
     }
 
     @Override
